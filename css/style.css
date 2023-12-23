@@ -20,10 +20,10 @@ body {
 }
 
 .logo {
-    width: 30%;
-    padding: 0.5em 6em 0.5em 6em;
+    width: 20%;
+    text-align: center;
     margin: 0.5em;
-    
+
 }
 
 .head_inputs {
@@ -33,7 +33,9 @@ body {
 
 .img_logo {
     width: 100%;
+    min-width: 150px;
     border-radius:30px;
+    min-height: 150px;
 }
 
 #inp1, #inp2 {
@@ -57,4 +59,39 @@ body {
 h1 {
     text-align: center;
     margin: 1vh;
+}
+
+.center {
+    display: flex;
+    
+}
+
+.left {
+    width: 40%;
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.col1, .col2 {
+    background-color: rgb(37, 68, 6);
+    width: 42%;
+    margin: 1em;
+    min-height: 50vh;
+}
+
+.col3 {
+    background-color: chocolate;
+    width: 100%;
+    margin: 0.3em;
+    min-height: 20vh;
+}
+
+.cards {
+    width: 60%;
+    background-color: blueviolet;
 }
